@@ -1,3 +1,21 @@
+# MODUL 5
+Nama    : Dhiva Mustikananda
+NIM     : 185150701111013
+Penjelasan : 
+Pada modul 5 kita membuat dasar aplikasi bookapp.
+1. Membuat migration kemudian menambahkan isi method function up untuk membuat atribut pada table.
+2. Membuat seeder kemudian menambahkan function run untuk mengisi kolom di database.
+3. Membuat model untuk mendefinisikan atribut pada table.
+3. Membuat controllers index untuk menampilkan semua data dan getBookbyId untuk menampilkan buku sesuai id yang dimasukkan. 
+4. memberikan pesan "Book Not Found" jika id buku yang dimasukkan tidak ada melalui controller. 
+4. Menambahkan route untuk memanggil controller.
+
+
+
+
+
+
+
 # Lumen PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
