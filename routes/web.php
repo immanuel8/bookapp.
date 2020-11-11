@@ -11,7 +11,25 @@ $router->get('/key', function () {
     return Str::random(32);
 });
 
-$router->get('/foo', 'BooksController@index');
-{
-    return $router->app->version();
-};
+// $router->get('/foo', 'BooksController@index');
+// {
+//     return $router->app->version();
+// };
+
+$router->get('books', 'BooksController@index');
+$router->get('books/{id}', 'BooksController@getBookbyId');
+$router->post('books', 'BooksController@store');
+
+$router->put('books/{id}', 'BooksController@update');
+$router->delete('books/{id}', 'BooksController@destroy');
+
+$router->get('/authors', 'BooksController@Authors');
+$router->get('/authors/{id}', 'BooksController@AuthorsId');
+$router->post('/authors', 'BooksController@AuthorsAdd');
+$router->put('/authors/{id}', 'BooksController@authorsupdate');
+$router->delete('/authors/{id}', 'BooksController@authorsdestroy');
+
+
+
+
+
